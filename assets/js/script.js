@@ -47,7 +47,7 @@ $(document).ready(function() {
   //gallery
 
   // IDEA: determinar source de imagen con clase
-  $(".featured").attr("src", "assets/img/1.jpg")
+  $(".featured").attr("src", "assets/img/5.jpg")
   // IDEA: Evento de click en imagen con clase de thumb
   $(".thumb").on("click", function() {
     source = $(this).attr("src");
