@@ -1,7 +1,7 @@
 $(document).ready(function() {
   anchor.init()
 
-
+});
   anchor = {
     init: function() {
       $("a.anchorLink").click(function() {
@@ -53,4 +53,4 @@ $(document).ready(function() {
     source = $(this).attr("src");
     $(".featured").attr("src", source);
   })
-});
+
